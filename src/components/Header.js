@@ -26,19 +26,19 @@ function Header() {
             >
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item active">
-                  <Link className="nav-link" to="/">
+                  <Link className="nav-link home-link" to="/">
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="market.php">
+                  <Link className="nav-link" to="/market">
                     Market <span className="off-sale">30% off</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">
-                    Exchange
-                  </a>
+                  <Link className="nav-link" to="/contact">
+                    Contact
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="#">

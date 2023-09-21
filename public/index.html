@@ -61,8 +61,7 @@
       referrerpolicy="no-referrer"
     ></script>
     <script>
-      $(document).ready(function () {
-        console.log('ready!');
+      function initializeCarousel() {
         $('#banner_slide').owlCarousel({
           loop: true,
           margin: 10,
@@ -97,7 +96,7 @@
             },
           },
         });
-        $('#testimonial_slider').owlCarousel({
+        $('.testimonial_slider').owlCarousel({
           loop: true,
           margin: 10,
           nav: true,
@@ -180,6 +179,18 @@
             $(this).addClass('active');
           }
         );
+      }
+
+      $(document).ready(function () {
+        // console.log('now here');
+
+        initializeCarousel();
+      });
+
+      $('.home-link').on('click', function () {
+        console.log('here');
+
+        initializeCarousel();
       });
     </script>
   </body>
