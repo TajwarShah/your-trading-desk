@@ -52,7 +52,9 @@ function About() {
           </Row>
         </Container>
       </section>
-      <SecVideo />
+      <section className="VideoSec">
+        <SecVideo />
+      </section>
     </>
   );
 }
