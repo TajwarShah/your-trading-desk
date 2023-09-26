@@ -1,3 +1,5 @@
+import TestimonialSlider from '../components/TestimonialSlider';
+import MultiSlider from '../components/MultiSlider';
 function Market() {
   return (
     <>
@@ -30,85 +32,11 @@ function Market() {
         </div>
         <div className="container-fluid">
           <div id="currency_slider" className="owl-carousel owl-theme">
-            <div className="item">
-              <div className="currencybox">
-                <div className="coin-img">
-                  <img src="assets/images/bitcpin.png" />
-                </div>
-                <div className="coin-con">
-                  <h3>Bitcoin</h3>
-                  <p className="price">
-                    USD 34879.4 <span className="diff-color pink">-5.48%</span>
-                  </p>
-                  <img src="assets/images/p-vector.png" />
-                  <a href="#">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="currencybox">
-                <div className="coin-img">
-                  <img src="assets/images/ethereum.png" />
-                </div>
-                <div className="coin-con">
-                  <h3>Ethereum</h3>
-                  <p className="price">
-                    USD 34879.4 <span className="diff-color blue">-3.86%</span>
-                  </p>
-                  <img src="assets/images/b-vector.png" />
-                  <a href="#">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="currencybox">
-                <div className="coin-img">
-                  <img src="assets/images/solana.png" />
-                </div>
-                <div className="coin-con">
-                  <h3>Solana</h3>
-                  <p className="price">
-                    USD 34879.4 <span className="diff-color pink">-5.48%</span>
-                  </p>
-                  <img src="assets/images/p-vector.png" />
-                  <a href="#">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="currencybox">
-                <div className="coin-img">
-                  <img src="assets/images/bnb.png" />
-                </div>
-                <div className="coin-con">
-                  <h3>BNB</h3>
-                  <p className="price">
-                    USD 34879.4 <span className="diff-color blue">-5.48%</span>
-                  </p>
-                  <img src="assets/images/b-vector.png" />
-                  <a href="#">Learn More</a>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="currencybox">
-                <div className="coin-img">
-                  <img src="assets/images/bnb.png" />
-                </div>
-                <div className="coin-con">
-                  <h3>BNB</h3>
-                  <p className="price">
-                    USD 34879.4 <span className="diff-color pink">-5.48%</span>
-                  </p>
-                  <img src="assets/images/b-vector.png" />
-                  <a href="#">Learn More</a>
-                </div>
-              </div>
-            </div>
+            <MultiSlider />
           </div>
-          <div className="slideState">
+          {/* <div className="slideState">
             <span></span>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -119,159 +47,8 @@ function Market() {
               Testimonials From Our <br /> Platform Users
             </h2>
           </div>
-          <div id="testimonial_slider" className="owl-carousel owl-theme">
-            <div className="item">
-              <div className="testimonialmain">
-                <div className="star-rating">
-                  <ul>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                  </ul>
-                </div>
-                <div className="FirstPara">
-                  <p>
-                    Is the best crypto asset trading <br /> platform that I have
-                    ever used,{' '}
-                  </p>
-                </div>
-                <div className="testimonialbox">
-                  <div className="testimonial-img">
-                    <img src="assets/images/Memoji.png" />
-                  </div>
-                  <div className="testimonial-con">
-                    <h3>Christopher Smith</h3>
-                    <p className="designation">Investor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonialmain">
-                <div className="star-rating">
-                  <ul>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                  </ul>
-                </div>
-                <div className="FirstPara">
-                  <p>
-                    Is the best crypto asset trading <br /> platform that I have
-                    ever used,{' '}
-                  </p>
-                </div>
-                <div className="testimonialbox">
-                  <div className="testimonial-img">
-                    <img src="assets/images/Memoji.png" />
-                  </div>
-                  <div className="testimonial-con">
-                    <h3>Christopher Smith</h3>
-                    <p className="designation">Investor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonialmain">
-                <div className="star-rating">
-                  <ul>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                  </ul>
-                </div>
-                <div className="FirstPara">
-                  <p>
-                    Is the best crypto asset trading <br /> platform that I have
-                    ever used,{' '}
-                  </p>
-                </div>
-                <div className="testimonialbox">
-                  <div className="testimonial-img">
-                    <img src="assets/images/Memoji.png" />
-                  </div>
-                  <div className="testimonial-con">
-                    <h3>Christopher Smith</h3>
-                    <p className="designation">Investor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="item">
-              <div className="testimonialmain">
-                <div className="star-rating">
-                  <ul>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                    <li>
-                      <i className="fas fa-star"></i>
-                    </li>
-                  </ul>
-                </div>
-                <div className="FirstPara">
-                  <p>
-                    Is the best crypto asset trading <br /> platform that I have
-                    ever used,{' '}
-                  </p>
-                </div>
-                <div className="testimonialbox">
-                  <div className="testimonial-img">
-                    <img src="assets/images/Memoji.png" />
-                  </div>
-                  <div className="testimonial-con">
-                    <h3>Christopher Smith</h3>
-                    <p className="designation">Investor</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div id="testimonial_slider" className="testimonial-slider">
+            <TestimonialSlider />
           </div>
         </div>
       </section>

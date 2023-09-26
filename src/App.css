@@ -308,7 +308,7 @@ h2.theme-h2 {
   padding-left: 15px;
 }
 section.OurBestPlatform {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 /*------------ BEST-FEATURES-CSS -----------*/
@@ -372,6 +372,11 @@ section.BestFeatures {
   margin-bottom: 40px !important;
 }
 /*----------- CURRENCY-SLIDER -----------*/
+
+#currency_slider {
+  overflow: hidden;
+  position: relative;
+}
 #currency_slider .currencybox .coin-img img {
   width: unset;
   margin: 0 auto;
@@ -428,7 +433,7 @@ section.BestFeatures {
   font-family: 'Chillax';
   font-weight: 500;
   margin-top: 35px;
-  display: inline-block;
+  display: block;
 }
 .currencybox:hover {
   background: #1b1b2c;
@@ -476,6 +481,7 @@ section.CurrencySec {
 .slideState span {
   position: absolute;
   height: 100%;
+  width: 100%;
   background: #5068e7;
   left: 0;
   top: 0;
@@ -488,11 +494,12 @@ section.CurrencySec {
 .slideState {
   width: 88%;
   left: 0;
-  bottom: 50px;
+  bottom: 26px;
   overflow: hidden;
   right: 0;
   border-radius: 10px;
-  height: 15px;
+  height: 13px;
+  position: relative;
 }
 /*---------- TESTIMONIAL-SEC -----------*/
 section.TestimonialSec {
